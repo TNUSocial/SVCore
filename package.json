@@ -1,0 +1,28 @@
+{
+  "name": "@tnucore/svcore",
+  "version": "1.0.0",
+  "description": "SV Core - Library for working with private student data in School System.",
+  "main": "SVCore.js",
+  "scripts": {
+    "test": "node test $Username $Password"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnusocial/SVCore.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tnusocial/SVCore/issues"
+  },
+  "homepage": "https://github.com/tnusocial/SVCore#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "jsdom": "^12.0.0",
+    "md5": "^2.2.1",
+    "moment": "^2.22.2",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5",
+    "xls-parse": "^1.0.4"
+  }
+}
