@@ -7,12 +7,12 @@ Dùng lệnh trong terminal để thiết lập tài khoản test!!
 sau khi đã chạy xong, dùng lệnh `npm test` để chạy test!
 
 ## Cài đặt vào dự án
-`npm i svcore`
+`npm i @tnucore/svcore`
 
 ## Sử dụng trong dự án
 
 Lệnh import thư viện
-`const sv = require('./SVCore');`
+`const sv = require('SVCore');`
 
 Tiếp đó sử dụng phương thức `sv.Open(<Mã Trường>)` để mở trình phân tích dữ liệu tương ứng với trường đó.
 `var ictu = sv.Open("ICTU");`
